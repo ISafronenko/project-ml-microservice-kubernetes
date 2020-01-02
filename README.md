@@ -17,8 +17,8 @@ pip install --upgrade pip &&\
 ### Running `app.py`
 
 1. Standalone:  `python app.py`
-2. Run in Docker:  `./run_docker.sh`
-3. Run in Kubernetes:  `./run_kubernetes.sh`
+2. Run in Docker:  `./run_docker.sh`. Check http://localhost:8000/
+3. Run in Kubernetes:  `./run_kubernetes.sh` Check http://localhost:8000/
 
 ### Kubernetes Steps
 
@@ -26,3 +26,7 @@ pip install --upgrade pip &&\
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+## Test the Model
+In order to test prediction model run:
+`./make_prediction.sh`
