@@ -1,4 +1,12 @@
+Error from server (AlreadyExists): pods "prediction" already exists
 NAME         READY   STATUS    RESTARTS   AGE
-prediction   1/1     Running   0          3m58s
+prediction   1/1     Running   0          2m53s
 Forwarding from 0.0.0.0:8000 -> 80
 Handling connection for 8000
+
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
